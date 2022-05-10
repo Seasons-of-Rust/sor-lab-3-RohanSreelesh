@@ -129,7 +129,7 @@ mod tests {
                 },
             ],
         };
-        assert_eq!(shop[0].health, 10);
+        assert_eq!(shop.cards[0].health, 10); 
     }
 
     #[test]
